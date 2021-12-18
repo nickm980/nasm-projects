@@ -4,6 +4,7 @@ section .text
 global CMAIN
 
 CMAIN:
+    mov ebp, esp; for correct debugging
     call function
     ret
 
